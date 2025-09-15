@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <style>
+    .template-card .card-image img {
+      width: 100%;
+      max-width: 320px;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume Template Catalog</title>
@@ -36,14 +46,16 @@
 
     <main>
       <section class="template-catalog">
-        <div
-          class="template-card"
-          data-template="Modern"
-          data-img="Black and White Simple Modern Resume.png"
-        >
+        <div class="template-card" data-template="Modern" data-img="Black and White Simple Modern Resume.png">
           <div class="card-image">
-            <img
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX5ZZFC1r5XEqlupdNakACcb3qMZg_V7L6bgXqKy4aC7-Wfw/viewform?usp=sharing&ouid=108068469652687240900" class="template-card" target="_blank" rel="noopener">
+            <img src="Black and White Simple Modern Resume.png" alt="Modern Resume" />
+          </div>
+          <div class="card-info">
+            <h2>Modern</h2>
+            <p>Clean, bold, and contemporary design for modern professionals.</p>
+          </div>
+        </div>
+        <div class="template-card" data-template="Creative" data-img="picture_3.jpg">
           <div class="card-image">
             <img src="picture_3.jpg" alt="Creative Resume" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x400?text=Creative+Resume';" />
           </div>
@@ -51,18 +63,8 @@
             <h2>Creative</h2>
             <p>Vibrant and unique design for creative industries.</p>
           </div>
-        </a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX5ZZFC1r5XEqlupdNakACcb3qMZg_V7L6bgXqKy4aC7-Wfw/viewform?usp=sharing&ouid=108068469652687240900" class="template-card" target="_blank" rel="noopener">
-          <div class="card-image">
-            <img src="Black and White Simple Modern Resume.png" alt="Modern Resume" />
-              <img
-                src="Black and White Simple Modern Resume.png"
-                alt="Modern Resume"
-                title="Modern Resume"
-              />
-          </div>
-        </a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX5ZZFC1r5XEqlupdNakACcb3qMZg_V7L6bgXqKy4aC7-Wfw/viewform?usp=sharing&ouid=108068469652687240900" class="template-card" target="_blank" rel="noopener">
+        </div>
+        <div class="template-card" data-template="Professional" data-img="picture_2.jpg">
           <div class="card-image">
             <img src="picture_2.jpg" alt="Professional Resume" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x400?text=Professional+Resume';" />
           </div>
@@ -70,8 +72,8 @@
             <h2>Professional</h2>
             <p>Polished and formal design for business and corporate roles.</p>
           </div>
-        </a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX5ZZFC1r5XEqlupdNakACcb3qMZg_V7L6bgXqKy4aC7-Wfw/viewform?usp=sharing&ouid=108068469652687240900" class="template-card" target="_blank" rel="noopener">
+        </div>
+        <div class="template-card" data-template="Simple" data-img="picture_1.jpg">
           <div class="card-image">
             <img src="picture_1.jpg" alt="Simple Resume" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x400?text=Simple+Resume';" />
           </div>
@@ -79,12 +81,10 @@
             <h2>Simple</h2>
             <p>Minimalist and straightforward design for easy readability.</p>
           </div>
-        </a>
-            <img
-              src="White simple Sales Representative Cv Resume.png"
-              alt="Classic Resume"
-              onerror="this.onerror=null;this.src='https://via.placeholder.com/320x400?text=Classic+Resume';"
-            />
+        </div>
+        <div class="template-card" data-template="Classic" data-img="White simple Sales Representative Cv Resume.png">
+          <div class="card-image">
+            <img src="White simple Sales Representative Cv Resume.png" alt="Classic Resume" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x400?text=Classic+Resume';" />
           </div>
           <div class="card-info">
             <h2>Classic</h2>
@@ -161,6 +161,13 @@
         </div>
       </section>
     </main>
+  <footer style="background:#222;color:#fff;text-align:center;padding:20px 0;margin-top:40px;">
+  <div>© 2025 All rights reserved.<br>
+  If you have any problem, contact:
+  <a href="mailto:kodzoaryee@gmail.com" style="color:#4fc3f7;text-decoration:underline;">kodzoaryee@gmail.com</a>
+  or <a href="tel:+233531198545" style="color:#4fc3f7;text-decoration:underline;">+233 53 119 8545</a>
+  </div>
+  </footer>
 
     <!-- Modal for preview -->
     <div id="previewModal" class="modal">
