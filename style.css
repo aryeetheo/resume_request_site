@@ -1,3 +1,22 @@
+/* Modern logo styles */
+.org-header-center {
+  text-align: center;
+}
+.org-logo-modern {
+  max-width: 90px;
+  max-height: 90px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 24px rgba(0,230,255,0.25), 0 2px 8px #000;
+  border: 3px solid #00e6ff;
+  background: linear-gradient(135deg, #101214 60%, #23272a 100%);
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+}
+.org-logo-modern:hover {
+  box-shadow: 0 8px 32px #00e6ff, 0 2px 8px #000;
+  border: 3px solid #fff200;
+  transform: scale(1.07) rotate(-2deg);
+}
 /* High-contrast dark theme */
 body {
   background: #101214;
